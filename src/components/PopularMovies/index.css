@@ -1,0 +1,25 @@
+.popularCont {
+  background-color: #000000;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.popularUn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  flex-wrap:wrap;
+}
+@media screen and (min-width: 768px) {
+  .popularCont {
+    font-size: 25px;
+  }
+  .popularUn {
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+  }
+}

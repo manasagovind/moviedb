@@ -1,0 +1,52 @@
+.movieCardList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  margin: 10px;
+  border: 1px solid #7e7575;
+  height: 80vh;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.posterTitle {
+  font-size: 20px;
+  text-align:center;
+}
+.detQue {
+  color: #56acce;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.viewDet {
+  border: none;
+  background-color: #4236f0;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.moveidet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.posterImg {
+  width: 50%;
+  height: 40%;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .movieCardList {
+    width: 40vw;
+    font-size: 22px;
+  }
+  .posterImg {
+    width: 40%;
+    height: 30%;
+  }
+  .posterTitle {
+    font-size: 28px;
+  }
+}
